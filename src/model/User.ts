@@ -1,5 +1,4 @@
 import mongoose, { Schema, Document } from "mongoose";
-import { teardownTraceSubscriber } from "next/dist/build/swc/generated-native";
 
 export interface Message extends Document {
   content: string;
